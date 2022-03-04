@@ -1249,3 +1249,153 @@ body {
     color: #FFFFFF;
     margin-left: 48px;
 }
+
+// footer started
+.footer {
+    max-width: 1600px;
+    max-height: 706px;
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-right: 35px;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    background-color: #191D28;
+    color: #cccccc;
+    position: relative;
+    bottom: 170px;
+    z-index: -1;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-logo {
+    padding-bottom: 25px;
+}
+
+.logo-line__text {
+    max-width: 270px;
+    padding-bottom: 30px;
+    line-height: 150%;
+}
+
+// quick links
+.footer__quick-links {
+    transform: translateY(-17px);
+}
+
+.quick-links__links {
+    padding-left: 0;
+    padding-right: 175px;
+    padding-top: 35px;
+    transform: translateX(-75px);
+}
+
+.footer-headings {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.quick-links__heading {
+    transform: translateX(-100px);
+}
+
+.quick-links__item {
+    padding-bottom: 22px;
+    min-width: 110px;
+    color: #76A713;
+     :hover {
+        color: #76A713;
+    }
+}
+
+.quick-links__item-links {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+// blog post 
+.footer__blog-post {
+    transform: translateY(-17px) translateX(-45px);
+}
+
+.blog-post__info {
+    display: flex;
+    align-items: center;
+}
+
+.blog-post__img {
+    padding-right: 15px;
+}
+
+.blog-post__text {
+    max-width: 284px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.blog-post__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #CCCCCC;
+    transform: translateY(-14px);
+}
+
+// officeal info
+.footer__officeal-info {
+    transform: translateY(-18px);
+}
+
+.officeal-info__heading {
+    padding-bottom: 34px;
+}
+
+.officeal-info__location {
+    padding-bottom: 22px;
+}
+
+.info-location__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #cccccc;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.officeal-info__time {
+    max-width: 188px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+// bottom footer
+.footer-line {
+    position: absolute;
+    width: 1600px;
+    margin: 0 auto;
+    height: 0.5px;
+    background-color: #eeeeee;
+    transform: translateX(-110px);
+}
+
+.copyright {
+    text-align: center;
+}
+
+// end of footer
